@@ -2,6 +2,8 @@
 
 - See https://github.com/Neargye/magic_enum for more information.
 
+- Example
+
 ```cpp
 #include <iostream>
 
@@ -102,3 +104,22 @@ int main() {
     return 0;
 }
 ```
+
+- Output
+
+```
+RED
+Color names: RED BLUE GREEN
+BLUE = 0
+BLUE = 0
+GREEN = 10
+RED = -10
+Color: RED BLUE GREEN
+Color enum size: 3
+Color[0] = RED
+Colors values: RED BLUE GREEN
+5
+Colors entries: RED = -10 BLUE = 0 GREEN = 10
+```
+
+
